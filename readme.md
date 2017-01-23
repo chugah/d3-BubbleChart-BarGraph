@@ -13,4 +13,4 @@ DEMO URLs:
 	
 	2.  Bar Graph -  http://samilytics.com/bar.html
 
-D
+Alternately, clone project and open index.html using FireFox.
