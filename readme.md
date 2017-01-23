@@ -9,6 +9,8 @@ Data visualization used to display the following information:
 
 DEMO URLs:
 
-    1.  Bubble Chart: http://samilytics.com/bubble.html
+    1.  Bubble Chart - http://samilytics.com/bubble.html
 	
-	2.  Bar Graph:  http://samilytics.com/bar.html
+	2.  Bar Graph -  http://samilytics.com/bar.html
+
+D
