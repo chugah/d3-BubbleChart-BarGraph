@@ -1,0 +1,159 @@
+/*HTML*/
+
+body {
+
+}
+
+a {
+  text-decoration: none;
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+#container{
+  margin-top: 10px;
+  width:940px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  background-color: #fff;
+  font-size: 13px;
+}
+
+#intro {
+  
+  font-size: 120%
+}
+
+#intro > ul > li {
+  line-height: 200%;
+}
+
+#vis{
+
+}
+
+#BarChart{
+  font-size: 120%;
+  height: 500px;
+}
+/*-------------------------------------------------------------------------------------------Buttons------------------------------------------------------------------------*/
+
+.btn-group > .btn:hover, .btn-group > .btn:focus, .btn-group > .btn:active, .btn-group > .btn.active {
+    z-index: 2;
+}
+.btn-group > .btn:first-child {
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    margin-left: 0;
+}
+
+.btn-group > .btn:last-child, .btn-group > .dropdown-toggle {
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.btn-group > .btn + .btn {
+    margin-left: -3px;
+}
+.btn-group > .btn, .btn-group > .dropdown-menu {
+    font-size: 14px;
+}
+.btn-group > .btn {
+    border-radius: 0;
+    position: relative;
+}
+.btn {
+    border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+}
+.btn {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #fff, #fff);
+    background-repeat: repeat-x;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 4px 12px;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+}
+
+.btn-group {
+    white-space: nowrap;
+}
+
+.HighB{
+    background-color: #3d3d3d;
+    background-image: none;
+    background-repeat: repeat-x;
+
+}
+
+
+/*----------------------------------------------------------------------Tooltip-----------------------------------------------------------------*/
+
+.tooltip {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  border-radius: 10px;
+  border: 2px solid #DDD;
+  background: #F0F0F0;
+  opacity: .9;
+  color: #000;
+  padding: 10px;
+  width: 350px;
+  font-size: 14px;
+  z-index: 120;
+}
+
+.tooltip p.main {
+  font-size: 15px;
+  text-align: center;
+  padding:0;
+  margin:0;
+}
+
+hr.tooltip-hr {
+  padding:3px 0 0 0;
+  margin:3px 0 3px 0;
+}
+
+.tooltip .title {
+  font-size: 20px;
+  line-height: 24px;
+}
+ 
+.tooltip .name {
+  font-weight:bold;
+}
+
+/*-----------------------------------------------------BarChart-------------------------------*/
+
+.axis {
+    font: 10px sans-serif;
+  }
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+  }
+
+label {
+ 
+  top: 10px;
+  right: 610px;
+  }
+
